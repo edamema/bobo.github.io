@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Ovo:300,300i,400');
+html, body{
+	font-size: 14px;
+	font-family: 'Ovo', serif;
+	color: rgb(21,21,21);
+}
+
+.poem{
+	position: absolute;
+	width height: auto;
+	top: 240px;
+	left: 192px;
+}
+
+h1{
+	font-size: 2.8rem;
+	line-height: 3.5rem;
+	letter-spacing: 1px;
+	margin-bottom: 50px;
+	margin-left: 40px;
+}
+
+p{
+	font-size: 1.5rem;
+	line-height: 2.8rem;
+	word-spacing: 1px;
+	margin-left: 48px;
+}
+
+a:link{
+	color: black;
+	padding: 0 1.8rem;
+	text-decoration: none;
+	outline: 0;
+}
+
+a:visited{
+	color: black;
+}

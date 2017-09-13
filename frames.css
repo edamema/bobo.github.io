@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Ovo:300,300i,400');
+html, body {
+	font-size: 14px;
+	font-family: 'Ovo', serif;
+	color: rgb(21,21,21);
+	box-sizing: border-box;
+}
+/*header image*/
+.frames-header {
+	width: 100%;
+	height: 200px;
+	margin-bottom: 80px;
+	position: relative;
+	background-image: url('images/frames_header.svg');
+	background-color: white;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+/*.container{
+	
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}*/
+
+.frames-spots {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px 40px;
+}
+
+#scatman {
+	grid-column: 4/span 8;
+	grid-row: 4;
+	width: 250px;
+	height: 150px;
+	background: url('images/spots/scatman.png') no-repeat;
+	background-size: contain;
+	outline: none;
+}
+
+#scatman:hover {
+		background-image: url('images/spots/scatman_active.png');
+	}
+
+#cattle {
+	grid-column: 8/span 8;
+	grid-row: 11;
+	width: 250px;
+	height: 150px;
+	background: url('images/spots/cattle.png') no-repeat;
+	background-size: contain;
+	outline: none;
+}
+
+#cattle:hover {
+		background-image: url('images/spots/cattle_active.png');
+	}
+
+#fine {
+	grid-column: 6/span 8;
+	grid-row: 16/span 2;
+	width: 140px;
+	height: 220px;
+	background: url('images/spots/fine.png') no-repeat;
+	background-size: contain;
+	outline: none;
+}
+
+#fine:hover {
+		background-image: url('images/spots/fine_active.png');
+	}
+
+#pieces {
+	grid-column: 8/span 2;
+	grid-row: 3/span 2;
+	width: 150px;
+	height: 220px;
+	background: url('images/spots/pieces.png') no-repeat;
+	background-size: contain;
+	outline: none;
+}
+
+#pieces:hover {
+		background-image: url('images/spots/pieces_active copy.png');
+	}
+
+return button a:link {
+	color: black;
+	padding: 0 1.8rem;
+	text-decoration: none;
+	outline: 0;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: black;
+}
+
+.letters-letsgohome {
+	width: 100%;
+	position: relative;
+	text-align: center;
+	text-indent: -20px;
+}
+
+.letters-back-button {
+	margin-top: 240px;
+	width: 100%;
+	height: 60px;
+	background-image: url("images/back.svg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.letters-return-text {
+	position: relative;
+	bottom: 42px;
+	opacity: 0;
+	z-index: 2;
+	font-size: 2rem;
+	text-transform: lowercase;
+}
+
+.letters-letsgohome:hover .letters-return-text {
+	animation-name: opacity;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes opacity {
+	20%{opacity: 70}
+	100% {opacity: 100;}
+}
+
+.letters-letsgohome:hover .letters-back-button {
+	background-image:none;
+}

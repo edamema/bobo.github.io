@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>letters</title>
+	<link href="letters.css" rel="stylesheet">
+	<link rel="icon" 
+      type="image/png" 
+      href="images/favicon3.png">
+    <script type="text/javascript">
+	function showStuff(id) {
+		document.getElementById(id).style.display="block";
+	}
+	function hideStuff(id) {
+		document.getElementById(id).style.display = "none";
+	}
+	</script>
+</head>
+
+<body>
+	<h1 class="letters-header"></h1>
+
+	<div class="letters-links">
+		<a href="#" onclick="hideStuff('essays'); showStuff('freeverse'); return false;">fiction & verse</a>
+		<a href="#" onclick="showStuff('essays'); hideStuff('freeverse'); return false;">essays</a>
+	</div>
+
+	<div id="freeverse" class="letters-topic">
+		<ul class="letters-list">
+			<li>
+				<a href="freeverse/nam.html"><s>Nam</s></a></li>
+			<li>
+				<a href="freeverse/nam.html"><s>Head of Thread</s></a></li>
+			<li>
+				<a href="freeverse/toyota_corolla.html">Toyota Corolla</a></li>
+			<li>
+				<a href="freeverse/nam.html"><s>Homesickness</s></a></li>
+			<li>
+				<a href="freeverse/nam.html"><s>Ice Cream Tree</s></a></li>
+		</ul>
+	</div>
+
+	<div id="essays" class="letters-topic">
+		<ul class="letters-list">
+			<li>
+				<a href="freeverse/nam.html"><s>A Loss of Imaginative Discourse</s></a></li>
+			<li>
+				<a href="freeverse/nam.html">Funny's not the Answer</a></li>
+			<li>
+				<a href="freeverse/nam.html"><s>Adventure Time, when Chekhov's rule flew the coop</s></a></li>
+		</ul>
+	</div>
+
+	<div class="letters-letsgohome">
+		<div class="letters-back-button"></div>
+		<a href="bobo.html" class="letters-return-text">return</a>
+	</div>
+
+</body>
+</html>

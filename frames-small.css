@@ -1,0 +1,31 @@
+.frames-spots {
+	display: inline-block;
+}
+
+.frame-frame {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 42px;
+}
+
+#scatman {
+	background: url('images/spots/scatman_mini.png') no-repeat;
+	background-size: contain;
+	display: block;
+}
+
+#cattle {
+	background: url('images/spots/cattle_mini.png') no-repeat;
+	background-size: contain;
+	display: block;
+}
+
+#fine {
+	background: url('images/spots/fine_mini.png') no-repeat;
+	background-size: contain;
+	display: block;
+}
+
+.letters-back-button {
+	margin-top: 62px;
+}
