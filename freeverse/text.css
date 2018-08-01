@@ -7,24 +7,28 @@ html, body{
 
 .poem{
 	position: absolute;
-	width height: auto;
+	width: 65%;
+	height: auto;
 	top: 240px;
-	left: 192px;
+	left: 180px;
 }
 
 h1{
-	font-size: 2.8rem;
+	font-size: 1.6rem;
 	line-height: 3.5rem;
 	letter-spacing: 1px;
-	margin-bottom: 50px;
-	margin-left: 40px;
+	margin-left: 32px;
 }
 
 p{
-	font-size: 1.5rem;
+	font-size: 1.4rem;
 	line-height: 2.8rem;
 	word-spacing: 1px;
 	margin-left: 48px;
+}
+
+.left{
+	text-align: right;
 }
 
 a:link{
