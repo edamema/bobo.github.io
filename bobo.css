@@ -5,6 +5,25 @@ html, body{
 	color: rgb(21,21,21);
 }
 
+.mo {
+	display: none;
+}
+
+.bobo-content{
+	display: grid;
+	grid-template: repeat(40,20px) / repeat(80,20px);
+}
+
+@media (max-width : 400px) {
+	.mo {
+		display: grid;
+		grid-template: repeat(40,20px) / repeat(80,20px);
+	}
+	.desk{
+		display: none;
+	}
+}
+
 .bobo-header{
 	font-size: 3rem;
 	display: grid;
@@ -27,11 +46,6 @@ html, body{
 	grid-column: 3/span 4;
 	grid-row: 10;
 	line-height: 120%;
-}
-
-.bobo-content{
-	display: grid;
-	grid-template: repeat(40,20px) / repeat(80,20px);
 }
 
 .bobo-text{
@@ -71,4 +85,14 @@ html, body{
 
 .bobo-letters:hover{
 	opacity: 0;
+}
+
+.bobo-frames-mobile {
+	grid-column: 9/span 10;
+	grid-row: 24/span 10;
+}
+
+.bobo-letters-mobile {
+	grid-column: 22/span 10;
+	grid-row: 10/span 10;
 }
