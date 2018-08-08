@@ -14,7 +14,7 @@ html, body{
 	grid-template: repeat(40,20px) / repeat(80,20px);
 }
 
-@media (max-width : 400px) {
+@media (max-width : 412px) {
 	.mo {
 		display: grid;
 		grid-template: repeat(40,20px) / repeat(80,20px);
