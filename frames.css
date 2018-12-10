@@ -51,7 +51,7 @@ html, body {
 #cattle {
 	grid-column: 9/span 8;
 	grid-row: 15;
-	width: 280px;
+	width: 260px;
 	height: 180px;
 	background: url('images/spots/cattle.png') no-repeat;
 	background-size: contain;
