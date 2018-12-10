@@ -79,8 +79,8 @@ html, body {
 #pieces {
 	grid-column: 8/span 2;
 	grid-row: 3/span 2;
-	width: 150px;
-	height: 220px;
+	width: 80px;
+	height: 110px;
 	background: url('images/spots/pieces.png') no-repeat;
 	background-size: contain;
 	outline: none;
@@ -88,6 +88,20 @@ html, body {
 
 #pieces:hover {
 		background-image: url('images/spots/pieces_active copy.png');
+	}
+
+#one {
+	grid-column: 4/span 2;
+	grid-row: 12/span 2;
+	width: 280px;
+	height: 100px;
+	background: url('images/spots/one.png') no-repeat;
+	background-size: contain;
+	outline: none;
+}
+
+#one:hover {
+		background-image: url('images/spots/one_active.png');
 	}
 
 return button a:link {
